@@ -3,7 +3,11 @@
   box-sizing: border-box;
 }
 
-/* Grid measurements:
+/*
+
+font-family: 'Varela Round', sans-serif;
+
+ Grid measurements:
  *
  *   960px wide including 12 gutters (half gutters on both edges)
  *
@@ -69,17 +73,19 @@ html,body{
   height: 100%;
   margin:0;
   position: relative;
-  background-color: #272516;
+ 
 }
 .dashboard{
-    top: 30%;
+     background-color: #272516;
     position: relative;
     padding: 0;
+    height: 100vh;
 
 
   }
 
   .ohalf{
+    top: 30%;
     position: absolute;
     right: 50%;
     max-width: 100%;
@@ -89,15 +95,44 @@ html,body{
 
   }
 
+
+  @keyframes bounce-out{
+
+    from{box-shadow: 0 0 0 5px white;
+    }
+
+    to{
+box-shadow: 0 0 0 10px white;
+    }
+  }
+
   .dp{
+    
+    animation-name: bounce-out;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    position: relative;
+    box-shadow: 0 0 0 5px white;
+    padding: 5px;
     background-size: cover;
     border-radius: 50%;
     height: 50vh;
     width: 50vh;
     
+    
   }
 
+  .dp:hover{
+
+
+  }
+
+
+
+
   .thalf{
+    top: 30%;
     position: absolute;
     left: 50%;
     max-width: 100%;
@@ -107,6 +142,7 @@ html,body{
     .hello{
       
       position: absolute;
+      font-family: 'Walter Turncoat', cursive;
       font-size: 5vh;
       left: 5vh;
       color: white;
@@ -114,10 +150,12 @@ html,body{
     }
 
     .circles{
+      
       border-radius: 50%;
       text-align: center;
       vertical-align: middle;
       
+
 
       position: absolute;
       height: 15vh;
@@ -126,36 +164,89 @@ html,body{
       bottom: 30%;
     }
 
+
+   
+
+    /*.icon{
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      opacity: 1;
+      transform: translate(-50%,-50%);
+      height: 10vh;
+      width: 10vh;
+      line-height: 15vh;
+
+    }*/
+
     .one{
+      transition: background-color 0.4s ease-in-out;
       background-color: teal;
       left: 5vh;
 
     }
+    
 
  .two{
+  transition: background-color 0.4s ease-in-out;
       background-color: #092834;
       left: 25vh;
       
     }
+    
      .three{
+      transition: background-color 0.4s ease-in-out;
 
       background-color: #1da08b;
       left: 45vh;
       
     }
+   
 
    
    .txt{
+  
+  transition: color 0.4s;
+
     color: white;
+    font-family: 'Walter Turncoat', cursive;
    line-height: 15vh;
    font-style: bold;
    font-size: 2vh;
-    
-    
-
-   
    
    }
+
+
+   .one:hover{
+    background-color: white;
+
+   }
+   .one:hover .txt{
+    
+    color: teal;
+
+   }
+
+.two:hover{
+    background-color: white;
+
+   }
+   .two:hover .txt{
+    
+    color: #092834;
+
+   }
+
+   .three:hover{
+    background-color: white;
+
+   }
+   .three:hover .txt{
+    
+    color: #1da08b;
+
+   }
+ 
 
 
 
