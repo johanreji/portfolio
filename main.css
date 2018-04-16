@@ -1,5 +1,5 @@
 
-* {
+*{
   box-sizing: border-box;
 }
 
@@ -168,7 +168,7 @@ box-shadow: 0 0 0 10px white;
       height: 15vh;
       width: 15vh;
       
-      bottom: 30%;
+      
     }
 
 
@@ -177,6 +177,7 @@ box-shadow: 0 0 0 10px white;
 .one{
     left: 5vh;
     background-color: teal;
+    bottom: 30%;
    }
 
     
@@ -185,6 +186,7 @@ box-shadow: 0 0 0 10px white;
   
       background-color: #092834;
       left: 25vh;
+      bottom: 30%;
       
     }
     
@@ -192,16 +194,18 @@ box-shadow: 0 0 0 10px white;
      
       background-color: #1da08b;
       left: 45vh;
+      bottom: 30%;
       
     }
    
 
    
    .txt{
+
   
  
 
-    color: black;
+    color: white;
     font-family: 'Walter Turncoat', cursive;
    line-height: 15vh;
    font-style: bold;
@@ -343,8 +347,7 @@ content: "";
   position: absolute;
   font-size: 4vh;
   text-align: center;
-  top: 50%;
-  left: 50%;
+    left: 50%;
   transform: translate(-50%,-50%);
   font-family: 'Varela Round', sans-serif;
   color: white ;
@@ -353,4 +356,182 @@ content: "";
 
 }
 
+.c1{
+  top: 50%;
 
+}
+
+
+#resume{
+
+  background-color: teal;
+    position: relative;
+    padding: 0;
+    height: 100vh;
+}
+
+.l2{
+  top: 10%;
+}
+.l3{
+  top: 20%;
+}
+
+.l4{
+  top: 60%;
+}
+.c2{
+  top: 20%;
+}
+
+.c4{
+  top: 70%;
+}
+
+.skill{
+
+  top: 40%;
+  background-color: black;
+  
+  transform: translate(-50%,-50%);
+
+}
+.f{
+  left:30%;
+}
+.s{
+  left: 40%
+}
+.t{
+  left: 50%;
+}
+.fo{
+  left: 60%;
+}
+.fi{
+  left: 70%;
+}
+.ftxt:after{
+  position: absolute;
+top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  transition-timing-function: ease-in;
+  transition-delay: 0.3s;
+  content: "Expert";
+  opacity: 0;
+}
+
+.stxt:after{
+  position: absolute;
+top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  transition-timing-function: ease-in;
+  transition-delay: 0.3s;
+  content: "Intermediate";
+  opacity: 0;
+}
+.ttxt:after{
+  position: absolute;
+top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  transition-timing-function: ease-in;
+  transition-delay: 0.3s;
+  content: "Expert";
+  opacity: 0;
+}
+.fotxt:after{
+  position: absolute;
+top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  transition-timing-function: ease-in;
+  transition-delay: 0.3s;
+  content: "Intermediate";
+  opacity: 0;
+}
+.fitxt:after{
+  position: absolute;
+top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  transition-timing-function: ease-in;
+  transition-delay: 0.3s;
+  content: "beginner";
+  opacity: 0;
+}
+
+
+
+.skill:hover .ftxt:after{
+opacity: 1;
+  
+  color: black;   
+
+}
+.skill:hover .stxt:after{
+opacity: 1;
+  
+  color: black;   
+
+}
+.skill:hover .ttxt:after{
+opacity: 1;
+  
+  color: black;   
+
+}
+.skill:hover .fotxt:after{
+opacity: 1;
+  
+  color: black;   
+
+}
+.skill:hover .fitxt:after{
+opacity: 1;
+  
+  color: black;   
+
+}
+
+.downbtn{
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+  height: 4vh;
+  width: 12vh;
+  box-shadow: 0 0 0 3px black;
+  border-radius: 5%;
+  
+  position: absolute;
+  bottom: 5%;
+  right: 5%;
+  font-family: 'Walter Turncoat', cursive;
+
+  background-color:black;
+  color: white;
+  font-size: 2vh;
+  border-style: none;
+}
+
+
+.downbtn:hover{
+    background-color: transparent;
+
+}
+
+
+#projects{
+ background-color: #092834;
+    position: relative;
+    padding: 0;
+    height: 100vh;
+
+}
