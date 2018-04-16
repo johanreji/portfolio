@@ -6,10 +6,11 @@
 <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0" />
 
 	<link rel="stylesheet" type="text/css" href="main.css">
+	<link href="https://fonts.googleapis.com/css?family=Hammersmith+One" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Varela+Round|Walter+Turncoat" rel="stylesheet">
 </head>
 <body>
-<div class=" dashboard">
+<div id="dashboard">
 		<a href="#aboutme">
 		<div class=" ohalf dradial ">
 			<img class="dp bounce" src="dp.JPG">
@@ -43,7 +44,7 @@
 		
 		<div class="row">
 
-			<h1 class="labl l1">About Me</h1>
+			<h1 class="labl l1 underline">About Me</h1>
 			<p class="cont c1">Hi there, I am Johan Reji, <br><br> A Computer Science Engineering student <br><br> A passionate football player <br><br> An aspiring farmer  </p>
 
 		</div>
@@ -72,7 +73,7 @@
 
 		<div class="row skills">
 
-			<h1 class="labl l3">Skills</h1>
+			<h1 class="labl l3 underline">Skills</h1>
 			<div class="circles f skill radial">
 				
 				<span class="txt ftxt">C</span>
@@ -97,7 +98,7 @@
 		</div>
 
 		<div class="row">
-			<h1 class="labl l4">Experience</h1>
+			<h1 class="labl l4 underline">Experience</h1>
 			<p class="cont c4"> Intern at Keltron, Aroor </p>
 			
 		</div>
@@ -113,7 +114,8 @@
 <div id="projects">
 <div class="row">
 
-			<h1 class="labl l1">Projects</h1>
+			<h1 class="labl l1 underline">Projects</h1>
+
 
 			<ul>
 				<li>
@@ -153,7 +155,7 @@
 <div id="contactme">
 	<div class="row">
 
-			<h1 class="labl l1">Contact Me</h1>
+			<h1 class="labl l1 underline">Contact Me</h1>
 
 			<p class="cont c5">Mail at : johanpenatu@gmail.com <br><br>Thodupuzha, Kerala</p>
 			<a href="https://www.instagram.com/johanreji">
@@ -178,13 +180,13 @@
 			</a>
 
 
-			<form>
+			<form action="mailto:johanpenatu@gmail.com" method="post">
 				
 				<input class="visitorname" type="text" name="name" placeholder="Name">
 				
 				<textarea class="visitormessage" name="message" placeholder="Write something..."></textarea>
 
-				<input class="submitbtn btn" type="submit" name="Submit">
+				<input class="submitbtn btn" type="submit" value="send" >
 
 			</form>
 			

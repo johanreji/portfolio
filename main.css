@@ -79,8 +79,8 @@ html,body{
 }
 
 
-.dashboard{
-     background-color: #272516;
+#dashboard{
+     background-color:black;
     position: relative;
     padding: 0;
     height: 100vh;
@@ -148,7 +148,7 @@ box-shadow: 0 0 0 10px white;
     .hello{
       
       position: absolute;
-      font-family: 'Walter Turncoat', cursive;
+      font-family: 'Hammersmith One', sans-serif;
       font-size: 3vh;
       text-overflow: inherit;
       left: 45vh;
@@ -189,7 +189,7 @@ box-shadow: 0 0 0 10px white;
 
 .one{
     left: 5vh;
-    background-color: teal;
+    background-color: #008B8B;
     bottom: 30%;
    }
 
@@ -219,7 +219,7 @@ box-shadow: 0 0 0 10px white;
  
 
     color: white;
-    font-family: 'Walter Turncoat', cursive;
+    font-family: 'Hammersmith One', sans-serif;
    line-height: 15vh;
    font-style: bold;
    font-size: 2vh;
@@ -235,7 +235,7 @@ box-shadow: 0 0 0 10px white;
     transform: translate(-50%, -50%);
 
     color: black;
-    font-family: 'Walter Turncoat', cursive;
+    font-family: 'Hammersmith One', sans-serif;
    
    font-style: bold;
    font-size: 5vh;
@@ -246,7 +246,7 @@ box-shadow: 0 0 0 10px white;
 
 .one:hover .txt{
     
-    color: teal;
+    color: #008B8B;
 
    }
    .two:hover .txt{
@@ -336,7 +336,7 @@ content: "";
 
 
 #aboutme{
-  background-color: #A52A2A;
+  background-color: #5F9EA0;
     position: relative;
     padding: 0;
     height: 100vh;
@@ -349,7 +349,7 @@ content: "";
   transform: translate(-50%,-50%);
   
   color: white;
-    font-family: 'Walter Turncoat', cursive;
+    font-family: 'Hammersmith One', sans-serif;
    
    font-style: bold;
    font-size: 5vh;
@@ -380,7 +380,7 @@ content: "";
 
 #resume{
 
-  background-color: teal;
+  background-color: #008B8B;
     position: relative;
     padding: 0;
     height: 100vh;
@@ -530,7 +530,7 @@ opacity: 1;
   cursor: pointer;
 box-shadow: 0 0 0 3px black;
   border-radius: 5%;
-font-family: 'Walter Turncoat', cursive;
+font-family: 'Hammersmith One', sans-serif;
 
   background-color:black;
   color: white;
@@ -568,6 +568,32 @@ font-family: 'Walter Turncoat', cursive;
     height: 100vh;
 
 }
+.underline:after{
+content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  border-bottom: 2px solid white;
+
+  
+  animation-name: underlineanimation;
+  animation-duration: 1s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+
+}
+
+
+@keyframes underlineanimation{
+  from{visibility: hidden;
+    transform: scaleX(0);
+  }
+  to{
+   visibility: visible;
+    transform: scaleX(1);
+  }
+}
 
 #projects ul {
   color: white;
@@ -582,7 +608,7 @@ font-family: 'Walter Turncoat', cursive;
 
 #projects ul li h1{
 
-  font-family: 'Walter Turncoat', cursive;
+  font-family: 'Hammersmith One', sans-serif;
   
    
    
