@@ -68,6 +68,8 @@ font-family: 'Varela Round', sans-serif;
   .col-12 {
     width: 100%;
   }
+
+
 html,body{
   width: 100%;
   height: 100%;
@@ -75,6 +77,8 @@ html,body{
   position: relative;
  
 }
+
+
 .dashboard{
      background-color: #272516;
     position: relative;
@@ -85,7 +89,7 @@ html,body{
   }
 
   .ohalf{
-    
+    border-radius: 50%;
     top: 30%;
     position: absolute;
     right: 50%;
@@ -145,8 +149,9 @@ box-shadow: 0 0 0 10px white;
       
       position: absolute;
       font-family: 'Walter Turncoat', cursive;
-      font-size: 5vh;
-      left: 5vh;
+      font-size: 3vh;
+      text-overflow: inherit;
+      left: 45vh;
       color: white;
 
     }
@@ -313,9 +318,39 @@ content: "";
 
 
 
+#aboutme{
+  background-color: #A52A2A;
+    position: relative;
+    padding: 0;
+    height: 100vh;
+}
 
 
+.labl{
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  top: 10%;
+  color: white;
+    font-family: 'Walter Turncoat', cursive;
+   
+   font-style: bold;
+   font-size: 5vh;
 
+}
 
+.cont{
+  position: absolute;
+  font-size: 4vh;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  font-family: 'Varela Round', sans-serif;
+  color: white ;
+  
+  word-spacing: 2px;
+
+}
 
 
