@@ -19,6 +19,8 @@ font-family: 'Varela Round', sans-serif;
  *   so 960 + 20 + 20 => 1000px
  *
  **/
+
+ @media only screen and (min-width: 900px){
 .row {
   max-width: 100%;
   
@@ -782,5 +784,286 @@ position: absolute;
   transform: translate(-50%,-50%);
   
  
+
+}
+
+}
+
+@media only screen and (max-width: 900px){
+
+
+html,body{
+  width: 100%;
+  height: 100%;
+  margin:0;
+  position: relative;
+ 
+}
+
+
+#dashboard{
+     background-color:black;
+    position: relative;
+    padding: 0;
+    max-width: 100%;
+    height: 100vh;
+
+
+  }
+
+
+  .ohalf{
+    border-radius: 50%;
+    top: 40%;
+    position: absolute;
+    left: 50%;
+    max-width: 100%;
+    
+
+    
+
+
+  }
+
+
+  @keyframes bounce-out{
+
+    from{box-shadow: 0 0 0 5px white;
+    }
+
+    to{
+box-shadow: 0 0 0 10px white;
+    }
+  }
+
+  .bounce{
+    animation-name: bounce-out;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+  }
+
+  .dp{
+    
+    
+    position: relative;
+    box-shadow: 0 0 0 5px white;
+        background-size: cover;
+    border-radius: 50%;
+    height: 50vh;
+    transform: translate(-50%,-50%);
+    width: 50vh;
+    
+    
+  }
+
+  
+
+  
+
+
+
+  .thalf{
+    top: 75%;
+    position: absolute;
+
+    left: 50%;
+    max-width: 100%;
+
+
+  }
+    
+
+    .circles{
+      
+      border-radius: 50%;
+      text-align: center;
+      vertical-align: middle;
+      
+
+
+      position: absolute;
+      height: 15vh;
+      width: 15vh;
+      
+      
+    }
+.scircles{
+      
+      border-radius: 50%;
+      text-align: center;
+      vertical-align: middle;
+      
+
+
+      position: absolute;
+      height: 6vh;
+      width: 6vh;
+      
+      
+    }
+
+   
+
+.one{
+    position: absolute;
+    
+    top: 0;
+    left: -27vh;
+    background-color: #008B8B;
+    
+     
+
+   }
+
+    
+
+ .two{
+ 	position: absolute;
+ 	
+    top: 0;
+    left: -7vh;
+  
+      background-color: #092834;
+     
+
+      
+    }
+    
+     .three{
+     	
+     position: absolute;
+    top: 0;
+    left: 13vh;
+      background-color: #1da08b;
+     
+       
+      
+    }
+   
+
+   
+   .txt{
+
+  
+ 
+
+    color: white;
+    font-family: 'Hammersmith One', sans-serif;
+   line-height: 15vh;
+   font-style: bold;
+   font-size: 2vh;
+   
+   }
+
+
+.htxt {
+  opacity: 0;
+     position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    color: black;
+    font-family: 'Hammersmith One', sans-serif;
+   
+   font-style: bold;
+   font-size: 5vh;
+}
+  
+   
+
+
+.one:hover .txt{
+    
+    color: #008B8B;
+
+   }
+   .two:hover .txt{
+    
+    color: #092834;
+
+   }
+
+  
+   .three:hover .txt{
+    
+    color: #1da08b;
+
+   }
+ 
+.radial{
+  
+      
+  transform: translateZ(0);
+  
+   
+  
+}
+
+.radial:before{
+content: "";
+   position: absolute;
+  z-index: -1;  /* to make it behind the text*/
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: white;
+  border-radius: 100%;
+  transform: scale(0);
+  transition-property: transform;
+  transition-duration: 0.5s;
+  transition-timing-function: ease-in-out;
+}
+
+
+.radial:hover:before{
+  transform: scale(1.1);
+
+ 
+}
+
+
+.dradial{
+  
+      
+  transform: translateZ(0);
+  
+   
+  
+}
+
+.dradial:before{
+content: "";
+   position: absolute;
+  z-index: 1;  /* to make it above the text*/
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: white;
+  border-radius: 100%;
+  transform: scale(0);
+  transition-property: transform;
+  transition-duration: 0.5s;
+  transition-timing-function: ease-in-out;
+}
+
+
+.dradial:hover:before{
+  transform: scale(1.1);
+
+}
+
+.dradial:hover .htxt{
+  z-index: 2;
+  transition-delay: 0.3s;
+  opacity: 1;
+}
+
+
+
+
 
 }
