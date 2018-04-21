@@ -1098,7 +1098,7 @@ content: "";
   position: absolute;
   font-size: 3vh;
   text-align: center;
-  font-size: smaller;
+  
     left: 50%;
   transform: translate(-50%,-50%);
   font-family: 'Varela Round', sans-serif;
