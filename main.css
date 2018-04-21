@@ -105,7 +105,7 @@ html,body{
 
   @keyframes bounce-out{
 
-    from{box-shadow: 0 0 0 5px white;
+    from{box-shadow: 0 0 0 1px white;
     }
 
     to{
@@ -815,8 +815,11 @@ html,body{
   .ohalf{
     border-radius: 50%;
     top: 40%;
-    position: absolute;
     left: 50%;
+    position: absolute;
+    margin-left: -25vh;
+    margin-top: -25vh;
+
     max-width: 100%;
     
 
@@ -828,7 +831,7 @@ html,body{
 
   @keyframes bounce-out{
 
-    from{box-shadow: 0 0 0 5px white;
+    from{box-shadow: 0 0 0 1px white;
     }
 
     to{
@@ -851,7 +854,7 @@ box-shadow: 0 0 0 10px white;
         background-size: cover;
     border-radius: 50%;
     height: 50vh;
-    transform: translate(-50%,-50%);
+    
     width: 50vh;
     
     
@@ -1042,6 +1045,7 @@ content: "";
   left: 0;
   right: 0;
   bottom: 0;
+
   background: white;
   border-radius: 100%;
   transform: scale(0);
@@ -1060,6 +1064,461 @@ content: "";
   z-index: 2;
   transition-delay: 0.3s;
   opacity: 1;
+}
+
+
+
+#aboutme{
+  background-color: #5F9EA0;
+    position: relative;
+    padding: 0;
+    height: 100vh;
+}
+
+
+.labl{
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  
+  color: white;
+    font-family: 'Hammersmith One', sans-serif;
+   
+   font-style: bold;
+   font-size: 5vh;
+
+}
+.l1{
+  top: 15%;
+}
+
+.cont{
+	padding: 0px;
+	margin: 0px;
+  position: absolute;
+  font-size: 3vh;
+  text-align: center;
+  font-size: smaller;
+    left: 50%;
+  transform: translate(-50%,-50%);
+  font-family: 'Varela Round', sans-serif;
+  color: white ;
+  
+  word-spacing: 2px;
+
+}
+
+.c1{
+  top: 50%;
+
+}
+
+
+#resume{
+
+  background-color: #008B8B;
+    position: relative;
+    padding: 0;
+    height: 100vh;
+    width: 100%;
+}
+
+.l2{
+  top: 10%;
+}
+.l3{
+  top: 20%;
+}
+
+.l4{
+  top: 60%;
+}
+.c2{
+  top: 20%;
+}
+
+.c4{
+  top: 70%;
+}
+
+.c5{
+  top: 30%;
+}
+.skill{
+  position: absolute;
+
+  top: 40%;
+  transform: translate(-50%,-50%);
+  background-color: black;
+  
+ 
+
+}
+.f{
+  left:26%;
+}
+.s{
+  left:38% ;
+}
+.t{
+  left: 50%;
+}
+.fo{
+  left: 62%;
+}
+.fi{
+  left: 74%;
+}
+.ftxt:after{
+  position: absolute;
+top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  transition-timing-function: ease-in;
+  transition-delay: 0.3s;
+  content: "Expert";
+  opacity: 0;
+}
+
+.stxt:after{
+  position: absolute;
+top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  transition-timing-function: ease-in;
+  transition-delay: 0.3s;
+  content: "Intermediate";
+  opacity: 0;
+}
+.ttxt:after{
+  position: absolute;
+top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  transition-timing-function: ease-in;
+  transition-delay: 0.3s;
+  content: "Expert";
+  opacity: 0;
+}
+.fotxt:after{
+  position: absolute;
+top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  transition-timing-function: ease-in;
+  transition-delay: 0.3s;
+  content: "Intermediate";
+  opacity: 0;
+}
+.fitxt:after{
+  position: absolute;
+top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  transition-timing-function: ease-in;
+  transition-delay: 0.3s;
+  content: "beginner";
+  opacity: 0;
+}
+
+
+
+.skill:hover .ftxt:after{
+opacity: 1;
+  
+  color: black;   
+
+}
+.skill:hover .stxt:after{
+opacity: 1;
+  
+  color: black;   
+
+}
+.skill:hover .ttxt:after{
+opacity: 1;
+  
+  color: black;   
+
+}
+.skill:hover .fotxt:after{
+opacity: 1;
+  
+  color: black;   
+
+}
+.skill:hover .fitxt:after{
+opacity: 1;
+  
+  color: black;   
+
+}
+
+.btn{
+
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+box-shadow: 0 0 0 3px black;
+  border-radius: 5%;
+font-family: 'Hammersmith One', sans-serif;
+
+  background-color:black;
+  color: white;
+  transition: background-color 0.5s ease-in;
+  font-size: 2vh;
+  border-style: none;
+
+
+
+}
+
+.down{
+  
+  height: 4vh;
+  width: 12vh;
+  
+  
+  position: absolute;
+  bottom: 5%;
+  right: 5%;
+  
+}
+
+
+.btn:hover{
+    background-color: transparent;
+
+}
+
+
+#projects{
+ background-color: #092834;
+    position: relative;
+    padding: 0;
+    height: 100vh;
+
+}
+.underline:after{
+content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  border-bottom: 2px solid white;
+
+  
+  animation-name: underlineanimation;
+  animation-duration: 1s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+
+}
+
+
+@keyframes underlineanimation{
+  from{visibility: hidden;
+    transform: scaleX(0);
+  }
+  to{
+   visibility: visible;
+    transform: scaleX(1);
+  }
+}
+
+#projects ul {
+  color: white;
+  list-style: none;
+
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+
+}
+
+#projects ul li h1{
+
+  font-family: 'Hammersmith One', sans-serif;
+  
+   
+   
+   font-size: 3vh;
+
+}
+
+#projects ul li p{
+
+  font-family: 'Varela Round', sans-serif;
+  padding-left: 15vh;
+  font-size: 3vh;
+}
+
+
+#projects ul li a{
+  padding-left: 15vh;
+
+}
+
+#contactme{
+  background-color: #1da08b;
+    position: relative;
+    padding: 0;
+    height: 100vh;
+
+
+}
+
+.socialicon{
+position: absolute;
+
+  top: 45%;
+  transform: translate(-50%,-50%);
+  background-color: black;
+}
+
+.insta{
+  left: 45%;
+}
+
+.fb{
+  left: 50%;
+}
+
+.lin{
+  left: 55%;
+}
+
+.fimg1{
+  position: absolute;
+
+  top: 50%;
+  transform: translate(-50%,-50%);
+
+
+  height: 4vh;
+  width: 4vh;
+}
+
+.fimg2{
+  position: absolute;
+  opacity: 0;
+  top: 50%;
+  z-index: 2;
+  transform: translate(-50%,-50%);
+  transition: opacity 0.5s ease-in;
+  transition-delay: 0.2s;
+
+
+  height: 4vh;
+  width: 4vh;
+
+
+}
+
+.simg1{
+  position: absolute;
+
+  top: 50%;
+  transform: translate(-50%,-50%);
+
+
+  height: 5vh;
+  width: 5vh;
+
+}
+
+.timg1{
+  position: absolute;
+
+  top: 50%;
+  transform: translate(-50%,-50%);
+
+
+  height: 3vh;
+  width: 3vh;
+
+}
+.simg2{
+  position: absolute;
+  opacity: 0;
+  top: 50%;
+  z-index: 2;
+  transform: translate(-50%,-50%);
+  transition: opacity 0.5s ease-in;
+  transition-delay: 0.2s;
+
+
+  height: 6vh;
+  width: 6vh;
+
+
+}
+
+.insta:hover .fimg2{
+  opacity: 1;
+
+}
+
+.fb:hover .simg2{
+  opacity: 1;
+
+}
+
+.lin:hover .simg2{
+  opacity: 1;
+
+}
+
+
+.visitorname{
+  border-radius: 1%;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  border: 1px solid black;
+  font-size: 2vh;
+    border-radius: 4px;
+  transform: translate(-50%,-50%);
+  height: 5vh;
+  width: 40vh;
+  padding:1vh  1vh;
+}
+
+.visitormessage{
+  position: absolute;
+  top: 65%;
+  resize: vertical;
+  height: 20vh;
+  border: 1px solid black;
+    border-radius: 4px;
+
+    font-size: 2vh;
+  
+
+  
+  left: 50%;
+  transform: translate(-50%,0%);
+  
+  width: 40vh;
+  padding:1vh  1vh;
+
+}
+
+.submitbtn{
+position: absolute;
+  top: 90%;
+  
+  left: 50%;
+  transform: translate(-50%,-50%);
+  
+ 
+
 }
 
 
