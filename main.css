@@ -1080,7 +1080,8 @@ content: "";
   position: absolute;
   left: 50%;
   transform: translate(-50%,-50%);
-  
+  text-align: center;
+
   color: white;
     font-family: 'Hammersmith One', sans-serif;
    
@@ -1129,18 +1130,18 @@ content: "";
   top: 10%;
 }
 .l3{
-  top: 20%;
+  top: 10%;
 }
 
 .l4{
-  top: 60%;
+  top: 65%;
 }
 .c2{
   top: 20%;
 }
 
 .c4{
-  top: 70%;
+  top: 75%;
 }
 
 .c5{
@@ -1149,7 +1150,7 @@ content: "";
 .skill{
   position: absolute;
 
-  top: 40%;
+  
   transform: translate(-50%,-50%);
   background-color: black;
   
@@ -1157,19 +1158,24 @@ content: "";
 
 }
 .f{
-  left:26%;
+	top: 30%;
+  left:20%;
 }
 .s{
-  left:38% ;
+	top: 50%;
+  left:34% ;
 }
 .t{
+	top: 30%;
   left: 50%;
 }
 .fo{
-  left: 62%;
+	top: 50%;
+  left: 66%;
 }
 .fi{
-  left: 74%;
+	top: 30%;
+  left: 80%;
 }
 .ftxt:after{
   position: absolute;
@@ -1340,6 +1346,7 @@ content: '';
   position: absolute;
   top: 55%;
   left: 50%;
+  min-width: 100%;
   transform: translate(-50%,-50%);
 
 }
@@ -1358,6 +1365,7 @@ content: '';
 
   font-family: 'Varela Round', sans-serif;
   padding-left: 15vh;
+
   font-size: 3vh;
 }
 
@@ -1385,7 +1393,7 @@ position: absolute;
 }
 
 .insta{
-  left: 45%;
+  left: 35%;
 }
 
 .fb{
@@ -1393,7 +1401,7 @@ position: absolute;
 }
 
 .lin{
-  left: 55%;
+  left: 65%;
 }
 
 .fimg1{
