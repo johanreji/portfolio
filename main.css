@@ -1095,14 +1095,16 @@ content: "";
 .cont{
 	padding: 0px;
 	margin: 0px;
+	min-width: 100%;
   position: absolute;
   font-size: 3vh;
   text-align: center;
-  
+
     left: 50%;
   transform: translate(-50%,-50%);
   font-family: 'Varela Round', sans-serif;
   color: white ;
+  
   
   word-spacing: 2px;
 
