@@ -91,17 +91,40 @@ html,body{
   }
 
   .ohalf{
+    z-index: 10;
     border-radius: 50%;
-    top: 30%;
+    top: 50%;
     position: absolute;
-    right: 50%;
-    max-width: 100%;
-    height: 50vh;
+   left: 50%;
    
-
-
+   transition: transform;
+  
+   transition-duration: 1s;
+   cursor: pointer;
   }
 
+  .dptrans1{
+    transform: translate(-50%,-50%);
+  }
+  .dptrans2{
+    transform: translate(-100%,-50%);
+  }
+
+  /*.ohalf:hover {
+
+    transform: translateX(-100%);
+  }*/
+
+/*  .ohalf:hover ~ .one{
+    transform: translate(5vh,-50%);
+  }
+    .ohalf:hover ~ .two{
+    transform: translate(25vh,-50%);
+  }
+    .ohalf:hover ~ .three{
+    transform: translate(45vh,-50%);
+  }
+  */
 
   @keyframes bounce-out{
 
@@ -124,7 +147,7 @@ box-shadow: 0 0 0 10px white;
     
     
     position: relative;
-    box-shadow: 0 0 0 5px white;
+    box-shadow: 0 0 0 2px white;
         background-size: cover;
     border-radius: 50%;
     height: 50vh;
@@ -139,14 +162,7 @@ box-shadow: 0 0 0 10px white;
 
 
 
-  .thalf{
-    top: 30%;
-    position: absolute;
-    left: 50%;
-    max-width: 100%;
-    height: 50vh;
 
-  }
     .hello{
       
       position: absolute;
@@ -190,28 +206,60 @@ box-shadow: 0 0 0 10px white;
    
 
 .one{
-    left: 5vh;
+    top: 50%;
+    position: absolute;
+    left: 50%;
     background-color: #008B8B;
-    bottom: 30%;
-   }
-
     
+transition: transform;
+transition-duration: 1s;
+    
+   
+   }
+.onetrans1{
+transform: translate(-50%,-50%);
+}
+  .onetrans2{
+    transform:translate(5vh,-50%);
+  }  
 
  .two{
   
       background-color: #092834;
-      left: 25vh;
-      bottom: 30%;
+      top: 50%;
+    position: absolute;
+    left: 50%;
+    
+    transition: transform;
+transition-duration: 1s;
+      
       
     }
+    .onetrans1{
+transform: translate(-50%,-50%);
+}
+  .twotrans2{
+    transform:translate(25vh,-50%);
+  }  
     
      .three{
      
       background-color: #1da08b;
-      left: 45vh;
-      bottom: 30%;
+      top: 50%;
+    position: absolute;
+    left: 50%;
+    
+    transition: transform;
+transition-duration: 1s;
+     
       
     }
+    .onetrans1{
+transform: translate(-50%,-50%);
+}
+  .threetrans2{
+    transform:translate(45vh,-50%);
+  }  
    
 
    
@@ -266,8 +314,7 @@ box-shadow: 0 0 0 10px white;
  
 .radial{
   
-      
-  transform: translateZ(0);
+  
   
    
   
@@ -300,7 +347,8 @@ content: "";
 .dradial{
   
       
-  transform: translateZ(0);
+  
+  transform: translate(-50%,-50%);
   
    
   
@@ -309,7 +357,7 @@ content: "";
 .dradial:before{
 content: "";
    position: absolute;
-  z-index: 1;  /* to make it above the text*/
+  z-index: 5;  /* to make it above the text*/
   top: 0;
   left: 0;
   right: 0;
@@ -329,7 +377,7 @@ content: "";
 }
 
 .dradial:hover .htxt{
-  z-index: 2;
+  z-index: 6;
   transition-delay: 0.3s;
   opacity: 1;
 }
@@ -814,21 +862,26 @@ html,body{
 
   .ohalf{
     border-radius: 50%;
-    top: 40%;
+    top: 50%;
     left: 50%;
     position: absolute;
-    margin-left: -25vh;
-    margin-top: -25vh;
-
-    max-width: 100%;
+    
+ z-index: 10;
+cursor: pointer;
+    transition: transform;
+    transition-duration: 1s;
     
 
     
 
 
   }
-
-
+  .dptrans1{
+    transform: translate(-50%,-50%);
+  }
+  .dptrans2{
+    transform: translate(-50%,-75%);
+  }
   @keyframes bounce-out{
 
     from{box-shadow: 0 0 0 1px white;
@@ -850,7 +903,7 @@ box-shadow: 0 0 0 10px white;
     
     
     position: relative;
-    box-shadow: 0 0 0 5px white;
+    box-shadow: 0 0 0 2px white;
         background-size: cover;
     border-radius: 50%;
     height: 50vh;
@@ -867,12 +920,7 @@ box-shadow: 0 0 0 10px white;
 
 
   .thalf{
-    top: 75%;
-    position: absolute;
-
-    left: 50%;
-    max-width: 100%;
-
+   
 
   }
     
@@ -910,41 +958,52 @@ box-shadow: 0 0 0 10px white;
 
 .one{
     position: absolute;
-    
-    top: 0;
-    left: -27vh;
+    top: 50%;
+    left: 50%;
     background-color: #008B8B;
-    
+    transition: transform;
+    transition-duration: 1s;
      
 
+   }
+
+   .onetrans2{
+    transform: translate(-200%,100%);
    }
 
     
 
  .two{
  	position: absolute;
- 	
-    top: 0;
-    left: -7vh;
-  
+ 	transition: transform;
+    transition-duration: 1s;
+  top: 50%;
+    left: 50%;
       background-color: #092834;
      
 
       
     }
+
+    .twotrans2{
+    transform: translate(-50%,100%);
+   }
     
      .three{
      	
      position: absolute;
-    top: 0;
-    left: 13vh;
+   transition: transform;
+    transition-duration: 1s;
       background-color: #1da08b;
-     
+     top: 50%;
+    left: 50%;
        
       
     }
    
-
+.threetrans2{
+    transform: translate(100%,100%);
+   }
    
    .txt{
 
@@ -998,7 +1057,7 @@ box-shadow: 0 0 0 10px white;
 .radial{
   
       
-  transform: translateZ(0);
+ 
   
    
   
@@ -1030,8 +1089,6 @@ content: "";
 
 .dradial{
   
-      
-  transform: translateZ(0);
   
    
   
