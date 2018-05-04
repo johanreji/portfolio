@@ -14,18 +14,18 @@ one.classList.remove('onetrans2');
 two.classList.remove('twotrans2');
 three.classList.remove('threetrans2');
 dp.classList.add("dptrans1");
-one.classList.add('dptrans1');
-two.classList.add('dptrans1');
-three.classList.add('dptrans1');
+one.classList.add('onetrans1');
+two.classList.add('onetrans1');
+three.classList.add('onetrans1');
 flag=0;
 
 	}
 	else{
 		dppic.classList.remove("bounce");
 		dp.classList.remove("dptrans1");
-		one.classList.remove('dptrans1');
-		two.classList.remove('dptrans1');
-		three.classList.remove('dptrans1');
+		one.classList.remove('onetrans1');
+		two.classList.remove('onetrans1');
+		three.classList.remove('onetrans1');
 		dp.classList.add("dptrans2");
 		one.classList.add('onetrans2');
 		two.classList.add('twotrans2');

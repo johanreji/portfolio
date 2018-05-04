@@ -211,15 +211,19 @@ box-shadow: 0 0 0 10px white;
     left: 50%;
     background-color: #008B8B;
     
-transition: transform;
+transition: transform,opacity;
+
+
 transition-duration: 1s;
     
    
    }
 .onetrans1{
+  opacity: 0;
 transform: translate(-50%,-50%);
 }
   .onetrans2{
+    opacity: 1;
     transform:translate(5vh,-50%);
   }  
 
@@ -230,15 +234,15 @@ transform: translate(-50%,-50%);
     position: absolute;
     left: 50%;
     
-    transition: transform;
+    transition: transform,opacity;
+
 transition-duration: 1s;
       
       
     }
-    .onetrans1{
-transform: translate(-50%,-50%);
-}
+
   .twotrans2{
+    opacity: 1;
     transform:translate(25vh,-50%);
   }  
     
@@ -247,17 +251,18 @@ transform: translate(-50%,-50%);
       background-color: #1da08b;
       top: 50%;
     position: absolute;
+   
+
     left: 50%;
     
-    transition: transform;
+    transition: transform,opacity;
 transition-duration: 1s;
      
       
     }
-    .onetrans1{
-transform: translate(-50%,-50%);
-}
+
   .threetrans2{
+    opacity: 1;
     transform:translate(45vh,-50%);
   }  
    
@@ -961,21 +966,29 @@ box-shadow: 0 0 0 10px white;
     top: 50%;
     left: 50%;
     background-color: #008B8B;
-    transition: transform;
+    transition: transform,opacity;
+    
     transition-duration: 1s;
      
 
    }
+   .onetrans1{
+    opacity: 0;
+    transform: translate(-50%,-50%);
+   }
 
    .onetrans2{
-    transform: translate(-200%,100%);
+    opacity:1 ;
+    transform: translate(-175%,100%);
    }
 
     
 
  .two{
  	position: absolute;
- 	transition: transform;
+ 	transition: transform,opacity;
+  
+
     transition-duration: 1s;
   top: 50%;
     left: 50%;
@@ -986,13 +999,15 @@ box-shadow: 0 0 0 10px white;
     }
 
     .twotrans2{
+      opacity: 1;
     transform: translate(-50%,100%);
    }
     
      .three{
      	
      position: absolute;
-   transition: transform;
+   transition: transform,opacity;
+   
     transition-duration: 1s;
       background-color: #1da08b;
      top: 50%;
@@ -1002,7 +1017,8 @@ box-shadow: 0 0 0 10px white;
     }
    
 .threetrans2{
-    transform: translate(100%,100%);
+  opacity: 1;
+    transform: translate(75%,100%);
    }
    
    .txt{
