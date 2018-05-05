@@ -749,7 +749,7 @@ position: absolute;
   position: absolute;
   opacity: 0;
   top: 50%;
-  z-index: 2;
+  z-index: 20;
   transform: translate(-50%,-50%);
   transition: opacity 0.5s ease-in;
   transition-delay: 0.2s;
@@ -788,7 +788,7 @@ position: absolute;
   position: absolute;
   opacity: 0;
   top: 50%;
-  z-index: 2;
+  z-index: 20;
   transform: translate(-50%,-50%);
   transition: opacity 0.5s ease-in;
   transition-delay: 0.2s;
@@ -861,6 +861,49 @@ position: absolute;
 
 }
 
+.gbbtn{
+  position: absolute;
+  top: 10%;
+  left: 10%;
+ 
+
+}
+.bimg1{
+  position: absolute;
+
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+
+
+  height: 3vh;
+  width: 3vh;
+
+}
+.bimg2{
+  position: absolute;
+  opacity: 0;
+  top: 50%;
+  left: 50%;
+  z-index: 20;
+  transform: translate(-50%,-50%);
+  transition: opacity 0.5s ease-in;
+  transition-delay: 0.2s;
+
+
+  height: 3vh;
+  width: 3vh;
+
+
+
+}
+
+
+.gbbtn:hover .bimg2{
+  opacity: 1;
+
+}
+
 }
 
 @media only screen and (max-width: 900px){
@@ -874,6 +917,48 @@ html,body{
  
 }
 
+.gbbtn{
+  position: absolute;
+  top: 10%;
+  left: 10%;
+ 
+
+}
+.bimg1{
+  position: absolute;
+
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+
+
+  height: 3vh;
+  width: 3vh;
+
+}
+.bimg2{
+  position: absolute;
+  opacity: 0;
+  top: 50%;
+  left: 50%;
+  z-index: 20;
+  transform: translate(-50%,-50%);
+  transition: opacity 0.5s ease-in;
+  transition-delay: 0.2s;
+
+
+  height: 3vh;
+  width: 3vh;
+
+
+
+}
+
+
+.gbbtn:hover .bimg2{
+  opacity: 1;
+
+}
 
 #dashboard{
      background-color:black;

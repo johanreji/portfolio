@@ -65,3 +65,33 @@ function showcontactme(){
 	contactme.classList.add('show');
 
 }
+
+function rback(){
+	let dashboard=document.getElementById("dashboard");
+	let resume=document.getElementById("resume");
+	resume.classList.remove('show');
+	resume.classList.add('hide');
+	dashboard.classList.remove('hide');
+	dashboard.classList.add('show');
+
+}
+
+function pback(){
+	let dashboard=document.getElementById("dashboard");
+	let projects=document.getElementById("projects");
+	projects.classList.remove('show');
+	projects.classList.add('hide');
+	dashboard.classList.remove('hide');
+	dashboard.classList.add('show');
+
+}
+
+function cback(){
+	let dashboard=document.getElementById("dashboard");
+	let contactme=document.getElementById("contactme");
+	contactme.classList.remove('show');
+	contactme.classList.add('hide');
+	dashboard.classList.remove('hide');
+	dashboard.classList.add('show');
+
+}
