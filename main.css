@@ -1536,7 +1536,7 @@ content: '';
   list-style: none;
 
   position: absolute;
-  top: 55%;
+  top: 50%;
   left: 50%;
   min-width: 100%;
   transform: translate(-50%,-50%);
@@ -1682,7 +1682,7 @@ position: absolute;
 .visitorname{
   border-radius: 1%;
   position: absolute;
-  top: 60%;
+  top: 55%;
   left: 50%;
   border: 1px solid black;
   font-size: 2vh;
@@ -1695,7 +1695,7 @@ position: absolute;
 
 .visitormessage{
   position: absolute;
-  top: 65%;
+  top: 60%;
   resize: vertical;
   height: 20vh;
   border: 1px solid black;
@@ -1715,7 +1715,7 @@ position: absolute;
 
 .submitbtn{
 position: absolute;
-  top: 90%;
+  top: 85%;
   
   left: 50%;
   transform: translate(-50%,-50%);
