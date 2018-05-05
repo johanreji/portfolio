@@ -37,6 +37,8 @@ flag=0;
 }
 
 function showresume(){
+	let bg=document.getElementsByClassName("bg")[0];
+	bg.style.backgroundColor="black";
 	let dashboard=document.getElementById("dashboard");
 	let resume=document.getElementById("resume");
 	dashboard.classList.remove('show');
@@ -47,6 +49,8 @@ function showresume(){
 }
 
 function showprojects(){
+	let bg=document.getElementsByClassName("bg")[0];
+	bg.style.backgroundColor="black";
 	let dashboard=document.getElementById("dashboard");
 	let projects=document.getElementById("projects");
 	dashboard.classList.remove('show');
@@ -57,6 +61,8 @@ function showprojects(){
 }
 
 function showcontactme(){
+	let bg=document.getElementsByClassName("bg")[0];
+	bg.style.backgroundColor="black";
 	let dashboard=document.getElementById("dashboard");
 	let contactme=document.getElementById("contactme");
 	dashboard.classList.remove('show');
@@ -67,8 +73,12 @@ function showcontactme(){
 }
 
 function rback(){
+	let bg=document.getElementsByClassName("bg")[0];
+	bg.style.backgroundColor="#000000";
 	let dashboard=document.getElementById("dashboard");
+
 	let resume=document.getElementById("resume");
+
 	resume.classList.remove('show');
 	resume.classList.add('hide');
 	dashboard.classList.remove('hide');
@@ -77,6 +87,8 @@ function rback(){
 }
 
 function pback(){
+	let bg=document.getElementsByClassName("bg")[0];
+	bg.style.backgroundColor="black";
 	let dashboard=document.getElementById("dashboard");
 	let projects=document.getElementById("projects");
 	projects.classList.remove('show');
@@ -87,6 +99,8 @@ function pback(){
 }
 
 function cback(){
+	let bg=document.getElementsByClassName("bg")[0];
+	bg.style.backgroundColor="black";
 	let dashboard=document.getElementById("dashboard");
 	let contactme=document.getElementById("contactme");
 	contactme.classList.remove('show');
