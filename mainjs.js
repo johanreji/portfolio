@@ -35,3 +35,33 @@ flag=0;
 
 
 }
+
+function showresume(){
+	let dashboard=document.getElementById("dashboard");
+	let resume=document.getElementById("resume");
+	dashboard.classList.remove('show');
+	dashboard.classList.add('hide');
+	resume.classList.remove('hide');
+	resume.classList.add('show');
+
+}
+
+function showprojects(){
+	let dashboard=document.getElementById("dashboard");
+	let projects=document.getElementById("projects");
+	dashboard.classList.remove('show');
+	dashboard.classList.add('hide');
+	projects.classList.remove('hide');
+	projects.classList.add('show');
+
+}
+
+function showcontactme(){
+	let dashboard=document.getElementById("dashboard");
+	let contactme=document.getElementById("contactme");
+	dashboard.classList.remove('show');
+	dashboard.classList.add('hide');
+	contactme.classList.remove('hide');
+	contactme.classList.add('show');
+
+}
