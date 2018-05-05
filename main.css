@@ -1280,7 +1280,7 @@ min-width: 100%;
 
 }
 .l1{
-  top: 15%;
+  top: 10%;
 }
 
 .cont{
@@ -1302,7 +1302,7 @@ min-width: 100%;
 }
 
 .c1{
-  top: 50%;
+  top: 45%;
 
 }
 
@@ -1325,18 +1325,18 @@ min-width: 100%;
 }
 
 .l4{
-  top: 65%;
+  top: 60%;
 }
 .c2{
-  top: 20%;
+  top: 15%;
 }
 
 .c4{
-  top: 75%;
+  top: 70%;
 }
 
 .c5{
-  top: 30%;
+  top: 25%;
 }
 .skill{
   position: absolute;
@@ -1349,23 +1349,23 @@ min-width: 100%;
 
 }
 .f{
-	top: 30%;
+	top: 25%;
   left:20%;
 }
 .s{
-	top: 50%;
+	top: 45%;
   left:34% ;
 }
 .t{
-	top: 30%;
+	top: 25%;
   left: 50%;
 }
 .fo{
-	top: 50%;
+	top: 45%;
   left: 66%;
 }
 .fi{
-	top: 30%;
+	top: 25%;
   left: 80%;
 }
 .ftxt:after{
@@ -1462,7 +1462,7 @@ opacity: 1;
 
   text-align: center;
   vertical-align: middle;
-  cursor: pointer;
+ 
 box-shadow: 0 0 0 3px black;
   border-radius: 5%;
 font-family: 'Hammersmith One', sans-serif;
@@ -1484,7 +1484,7 @@ font-family: 'Hammersmith One', sans-serif;
   
   
   position: absolute;
-  bottom: 5%;
+  bottom: 10%;
   right: 5%;
   
 }
